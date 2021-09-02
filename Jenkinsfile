@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('CheckoutCode') {
       steps {
-        git(url: 'https://github.com/iditasias/spring-boot-examples.git', branch: 'iditortdanny_2_sol', changelog: true)
+        git(url: 'https://github.com/iditasias/spring-boot-examples.git', branch: 'iditorydanny_2_sol', changelog: true)
       }
     }
 
