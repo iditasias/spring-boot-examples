@@ -9,7 +9,7 @@ pipeline {
 
     stage('Mvn compile') {
       steps {
-        sh '''cd sprint-boot-package-war
+        sh '''cd /sprint-boot-package-war
 mvn compile'''
       }
     }
