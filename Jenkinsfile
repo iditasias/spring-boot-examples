@@ -14,8 +14,9 @@ pipeline {
 
     stage('mvn compile') {
       steps {
-        sh '''cd /home/jenkins/jenkins/workspace/boot-examples_iditorydanny_2_sol@tmp/script.sh
+        sh '''cd cd spring-boot-package-war
 mvn compile
+
 '''
       }
     }
