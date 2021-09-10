@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout code') {
       steps {
-        git(url: 'https://github.com/segevb/spring-boot-examples.git', branch: 'segev_sol', changelog: true)
+        git(url: 'https://github.com/iditasias/spring-boot-examples.git', branch: 'iditorydanny_2_sol', changelog: true)
       }
     }
 
