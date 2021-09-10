@@ -14,8 +14,9 @@ pipeline {
 
     stage('Mvn compile') {
       steps {
-        sh '''cd sprint-boot-package-war
-mvn compile'''
+        sh '''cd spring-boot-package-war
+mvn compile
+'''
       }
     }
 
