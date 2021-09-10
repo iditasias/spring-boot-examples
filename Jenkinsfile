@@ -12,7 +12,7 @@ pipeline {
       }
     }
 
-    stage('Maven compile - {mvn build}') {
+    stage('Mvn compile') {
       steps {
         sh '''cd spring-boot-package-war
 mvn compile'''
