@@ -14,7 +14,7 @@ pipeline {
 
     stage('mvn compile') {
       steps {
-        sh '''cd /home/jenkins/jenkins/workspace/boot-examples_iditorydanny_2_sol@tmp/durable-d5d04c6c/script.sh
+        sh '''cd /home/jenkins/jenkins/workspace/boot-examples_iditorydanny_2_sol@tmp/script.sh
 mvn compile
 '''
       }
