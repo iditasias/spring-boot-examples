@@ -17,7 +17,6 @@ pipeline {
         sh '''cd spring-boot-package-war
 mvn compile'''
 
-'''
       }
     }
 
