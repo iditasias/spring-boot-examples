@@ -43,7 +43,7 @@ mvn build-helper:parse-version versions:set -DnewVersion=0.0.2.$BUILD_ID-SNAPSHO
 
     stage('slack notification') {
       steps {
-        slackSend(channel: 'idit-devops', message: 'o.k', notifyCommitters: true, token: '1XRjmCBofevxf8kG0Gv8bkpQ')
+        slackSend(channel: 'int-project', message: 'o.k', notifyCommitters: true, token: '6yvX4UpUPCVnQBHQHySVMSR6')
       }
     }
 
